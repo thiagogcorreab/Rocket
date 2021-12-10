@@ -53,4 +53,10 @@ Nesse projeto você encontrará uma área administrativa para que possamos geren
 
 ![Arquitetura DDD drawio (1)](https://user-images.githubusercontent.com/93417718/145467763-b659abd9-38e9-4df5-b63a-c452eff598b2.png)
 
+------
+
+### Entidades relacionada ao projeto
+
+![image](https://user-images.githubusercontent.com/93417718/145505174-6fd6836c-3920-49d1-b0dc-774eebeec5a7.png)
+
 
