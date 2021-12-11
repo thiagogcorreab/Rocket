@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Servicos\Blob\" />
+    <Folder Include="Servicos\Email\" />
+  </ItemGroup>
+
 </Project>
