@@ -1,5 +1,4 @@
 
-
 Create Table Enum.Estados(
 
 		EstadoId	 bigint primary key identity 
@@ -26,4 +25,31 @@ Create Table Organizacao.Empresas(
 
 )
 
-Select Len('09350-250')
+Create Table Organizacao.Usuarios(
+
+
+		UsuarioId						bigint primary key identity 
+	,	EmpresaId						bigint foreign key (EmpresaId) references Organizacao.Empresas(EmpresaId)
+	,	Nome							varchar(100) not null
+	,	Sobrenome						varchar(100) not null
+	,	Email							varchar(100) not null	
+	,	Senha							varchar(max) not null
+	,	BloqueioTmporario				datetime2
+	,	Bloqueio						bit not null 
+	,	TimeZone						varchar(6) not null
+)
+
+Create Table Organizacao.UsuariosTokens(
+
+		UsuarioTokenId	bigint primary key identity
+	,	UsuarioId		bigint foreign key(UsuarioId) references Organizacao.Usuarios(UsuarioId)
+	,	TipoToken		varchar(50) not null
+	,	Token			varchar(36) not null
+	,	Ativo			bit not null 
+)
+
+Select Len('9F5C2881-BD18-460C-AEC8-90456E85C2AC')
+
+Select newid()
+
+Drop Table Organizacao.UsuariosTokens
