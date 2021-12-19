@@ -51,7 +51,8 @@ Nesse projeto você encontrará uma área administrativa para que possamos geren
 
 ### Modelagem de Software
 
-![Arquitetura DDD drawio (1)](https://user-images.githubusercontent.com/93417718/145467763-b659abd9-38e9-4df5-b63a-c452eff598b2.png)
+![Modelagem](https://user-images.githubusercontent.com/93417718/146659948-f53da9fa-b29d-42bf-8a8e-aab0983b2d87.png)
+
 
 ------
 
