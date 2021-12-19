@@ -58,6 +58,6 @@ Nesse projeto você encontrará uma área administrativa para que possamos geren
 
 ### Entidades relacionada ao projeto
 
-![image](https://user-images.githubusercontent.com/93417718/145505174-6fd6836c-3920-49d1-b0dc-774eebeec5a7.png)
+![modelagemEntidade](https://user-images.githubusercontent.com/93417718/146660604-5f9d7744-bcf4-4253-9eec-c3285daa86a7.png)
 
 
